@@ -22,3 +22,9 @@ I got this message because I was trying to change my directory into the `Hello.j
 
 I got an error because I was trying to change my directory into a file, which is not possible.
 
+![Image](ls-no-argument.png)
+![Image](ls-directory-argument.png)
+![Image](ls-file-argument.png)
+![Image](cat-no-argument.png)
+![Image](cat-directory-argument.png)
+![Image](cat-file-argument.png)
