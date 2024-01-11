@@ -6,7 +6,7 @@ I got an empty output because I was not cd-ing into anything.
 
 This example was not an error.
 
-![Image](cd-directory-arguement.png)
+![Image](cd-directory-argument.png)
 
 The working directory was `/home`
 
