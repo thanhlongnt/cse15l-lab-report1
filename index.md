@@ -39,6 +39,33 @@ Passing `lecture1` as the argument resulted in the terminal outputting `Hello.cl
 This was not an error.
 
 ![Image](ls-file-argument.png)
+
+The working directory was `/home`
+
+Passing `/lecture1/Hello.java` as an argument resulted in the output repeating the file path because ls prints the files in that file. // come back to this
+
+This is maybe an error?
+
 ![Image](cat-no-argument.png)
+
+The working directory was `/home`
+
+Passing no arguments to `cat` resulted in the terminal allowing me to type whatever, almost like a text file. Not sure why this happens. // come back
+
+This is maybe an error?
+
 ![Image](cat-directory-argument.png)
+
+The working directory was `/home`
+
+Passing `lecture1` as an argument results in the terminal telling me that the arguemnt is a directory. This is because the cat command is used to print out file contents, where directories are not meant to be passed as arguments.
+
+This is an error message because the terminal is telling me that lecture1 is a directory, indicating that it is expecting a different arguement (file)
+
 ![Image](cat-file-argument.png)
+
+The working directory is `/home/lecture1`
+
+Passing `Hello.java` as an argument results in the terminal printing out the contents of `Hello.java`.
+
+This is not an error.
