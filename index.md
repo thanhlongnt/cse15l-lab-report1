@@ -42,17 +42,17 @@ This was not an error.
 
 The working directory was `/home`
 
-Passing `/lecture1/Hello.java` as an argument resulted in the output repeating the file path because ls prints the files in that file. // come back to this
+Passing `/lecture1/Hello.java` as an argument resulted in the output repeating the file path because there is nothing to look into.
 
-This is maybe an error?
+This was not an error.
 
 ![Image](cat-no-argument.png)
 
 The working directory was `/home`
 
-Passing no arguments to `cat` resulted in the terminal allowing me to type whatever, almost like a text file. Not sure why this happens. // come back
+Passing no arguments to `cat` resulted in the terminal entering a state that allows me to type anything. I was able to exit this by pressing `[CRTL] + [c]`. 
 
-This is maybe an error?
+This was technically not an error.
 
 ![Image](cat-directory-argument.png)
 
